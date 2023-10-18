@@ -1,0 +1,175 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .title {
+  text-align: center;
+  font-weight: 700;
+  padding: 50px 0 100px;
+  font-size: 37px;
+}
+body .header {
+  width: 100%;
+  height: 100%;
+  background-color: #DAE4FF;
+}
+body .header nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+body .header nav .container {
+  display: flex;
+  justify-content: space-around;
+}
+body .header nav .container .collapse .navbar-nav {
+  margin-left: auto;
+  margin-right: 20px;
+}
+body .header .video {
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body .header .video .video-item {
+  width: 100%;
+  height: 100% !important;
+}
+body .services {
+  width: 100%;
+  height: 100%;
+  background-color: #DAE4FF;
+}
+body .services .container .row {
+  padding-bottom: 118px;
+}
+body .services .container .row .col-xl-4 .card {
+  border: none;
+  background-color: transparent;
+}
+body .services .container .row .col-xl-4 .card .card-header {
+  background-color: transparent;
+  border: none;
+  height: 255px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+body .services .container .row .col-xl-4 .card .card-header img {
+  margin: 0 auto;
+}
+body .services .container .row .col-xl-4 .card .card-header .card-img_1 {
+  width: 333px;
+  height: 187px;
+}
+body .services .container .row .col-xl-4 .card .card-header .card-img_2 {
+  width: 212px;
+  height: 212px;
+}
+body .services .container .row .col-xl-4 .card .card-header .card-img_3 {
+  width: 178px;
+  height: 239px;
+}
+body .services .container .row .col-xl-4 .card .card-header .card-img_4 {
+  width: 228px;
+  height: 208px;
+}
+body .services .container .row .col-xl-4 .card .card-header .card-img_5 {
+  width: 188px;
+  height: 213px;
+}
+body .services .container .row .col-xl-4 .card .card-body {
+  padding-top: 0;
+}
+body .services .container .row .col-xl-4 .card .card-body .subtitle {
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146.9%;
+}
+body .warranty .container .row {
+  margin-top: 80px;
+}
+body .warranty .container .row .col-xl-8 .warranty-title {
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.9%;
+  margin-top: 20px;
+}
+body .warranty .container .row .col-xl-4 img {
+  width: 100%;
+}
+body .warranty .container .row .col-xl-2 {
+  margin-bottom: 40px;
+}
+body .contacts {
+  background-image: url("../images/contact-bg.png");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+}
+body .contacts .container {
+  padding: 0 40px;
+}
+body .contacts .container .contacts-bottom {
+  margin-top: 100px !important;
+}
+body .contacts .container .contacts-info {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+body .contacts .container .contacts-info .phone-number, body .contacts .container .contacts-info .contacts-email {
+  display: flex;
+}
+body .contacts .container .contacts-info .phone-number .title-number, body .contacts .container .contacts-info .contacts-email .title-number {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 146.9%;
+}
+body .contacts .container .contacts-info .phone-number .num .num-item, body .contacts .container .contacts-info .contacts-email .num .num-item {
+  list-style: none;
+}
+body .contacts .container .contacts-info .phone-number .num .num-item .num-link, body .contacts .container .contacts-info .contacts-email .num .num-item .num-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.9%;
+}
+body .contacts .container .contacts-info .phone-number .num .num-item .num-link:hover, body .contacts .container .contacts-info .contacts-email .num .num-item .num-link:hover {
+  font-weight: bold;
+  transition: 100ms;
+}
+body .contacts .container .contacts-info .contact-adress .num-link,
+body .contacts .container .contacts-info .contact-schedule .num-link {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.9%;
+}
+body .contacts .container .contacts-info .contact-adress .num-link .title-number,
+body .contacts .container .contacts-info .contact-schedule .num-link .title-number {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 146.9%;
+}
+body .contacts .container .contacts-app {
+  margin-top: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

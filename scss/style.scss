@@ -1,0 +1,215 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .title {
+        text-align: center;
+        font-weight: 700;
+        padding: 50px 0 100px;
+        font-size: 37px;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+        background-color: #DAE4FF;
+        nav {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            .container {
+                display: flex;
+                justify-content: space-around;
+                .collapse {
+                    .navbar-nav {
+                        margin-left: auto;
+                        margin-right: 20px;
+                        .nav-item {
+                            .nav-link {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .video {
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
+            .video-item {
+                width: 100%;
+                height: 100% !important;
+            }
+        }
+    }
+    .services {
+        width: 100%;
+        height: 100%;
+        background-color: #DAE4FF;
+        .container {
+            .row {
+                padding-bottom: 118px;
+                .col-xl-4 {
+                    
+                    .card {
+                        border: none;
+                        background-color: transparent;
+                        .card-header {
+                            background-color: transparent;
+                            border: none;
+                            height: 255px;
+                            margin-bottom: 10px; 
+                            text-align: center;
+                            img {
+                                margin: 0 auto;
+                            }
+                            .card-img_1 {
+                                width: 333px;
+                                height: 187px;
+                            }
+                            .card-img_2 {
+                                width: 212px;
+                                height: 212px;
+                            }
+                            .card-img_3 {
+                                width: 178px;
+                                height: 239px;
+                            }
+                            .card-img_4 {
+                                width: 228px;
+                                height: 208px;
+                            }
+                            .card-img_5 {
+                                width: 188px;
+                                height: 213px;
+                            }
+                        }
+                        .card-body {
+                            padding-top: 0;
+                            .subtitle {
+                                text-align: center;
+                                font-size: 19px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 146.9%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .warranty {
+        .container {
+            .row {
+                margin-top: 80px;
+                .col-xl-1 {
+
+                }
+                .col-xl-3 {
+                    img {
+
+                    }
+                }
+                .col-xl-8 {
+                    .warranty-title {
+                        font-size: 37px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 146.9%; 
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .row {
+                .col-xl-4 {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .row {
+                .col-xl-2 {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .contacts {
+        background-image: url("../images/contact-bg.png");
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 100px;
+        .container {
+            padding: 0 40px;
+            img {
+
+            }
+            .contacts-bottom {
+                margin-top: 100px !important;
+            }
+            .contacts-info {
+                display: flex;
+                margin-top: 50px;
+                justify-content: space-between;
+                .phone-number,.contacts-email {
+                    display: flex;
+                    
+                    .title-number {
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 146.9%; 
+                    }
+                    .num {
+                        .num-item {
+                            list-style: none;
+                            .num-link {
+                                text-decoration: none;
+                                color: #000;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 146.9%;
+                            }
+                            .num-link:hover {
+                                font-weight: bold;
+                                transition: 100ms;
+                            }
+                        }
+                    }
+                }
+                .contact-adress,
+                .contact-schedule {
+                    .num-link {
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 146.9%;
+                        .title-number {
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 146.9%;
+                        }
+                    }
+                }
+            }
+            .contacts-app {
+                margin-top: 100px;
+                width: 250px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
